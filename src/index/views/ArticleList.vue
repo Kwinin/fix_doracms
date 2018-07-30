@@ -12,7 +12,7 @@
                 <div v-if="typeId == 'indexPage'">
                   <el-row :gutter="15">
                     <el-col :xs="24" :sm="19" :md="19" :lg="19" class="carousel-area">
-                      <AdsPannel id="r11cia9CM" v-if="typeId == 'indexPage'"/>
+                      <AdsPannel id="05pCFa4dEG" v-if="typeId == 'indexPage'"/>
                     </el-col>
                     <el-col :xs="0" :sm="5" :md="5" :lg="5">
                       <!--<TopRecoContents :reclist="reclist"/>-->
