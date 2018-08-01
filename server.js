@@ -190,8 +190,8 @@ app.get(['/', '/page/:current(\\d+)?', '/:cate1?___:typeId?/:current(\\d+)?',
         }
 
         const context = {
-            title: '前端开发俱乐部',
-            description: '前端开发俱乐部',
+            title: 'kwinin for crainty',
+            description: 'kwinin for crainty',
             keywords: 'doracms',
             url: req.url,
             cookies: req.cookies,

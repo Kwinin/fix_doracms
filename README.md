@@ -42,7 +42,7 @@ DoraCMS 使用的技术栈：
 
 4、mongodb 3+
 
-演示地址： [前端开发俱乐部](https://www.html-js.cn)
+演示地址： [kwinin for crainty](https://www.html-js.cn)
 后台登录： https://www.html-js.cn/dr-admin     测试账号：doracms/123456
 
 开发文档： [前端内容管理框架 DoraCMS2.0 开发文档](https://www.html-js.cn/details/ryn2kSWqZ.html)   
