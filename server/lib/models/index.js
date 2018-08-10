@@ -2,15 +2,8 @@ const mongoose = require('mongoose');
 const isProd = process.env.NODE_ENV === 'production'
 const { settings } = require('../../../utils');
 
-if (!isProd) {
-    mongoose.connect("mongodb://localhost/doracms2", { useMongoClient: true });
-} else {
-    mongoose.connect('mongodb://' +settings.HOST + ':' + settings.PORT + '/' + settings.DB + '', {
-        useMongoClient: true,
-        user: settings.USERNAME,
-        pass: settings.PASSWORD,
-    });
-}
+
+mongoose.connect(settings.URL, { useMongoClient: true });
 
 mongoose.Promise = global.Promise;
 const db = mongoose.connection;
